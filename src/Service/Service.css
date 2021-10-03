@@ -1,0 +1,22 @@
+.service{
+    background-color: white;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.service img{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+}
+.service p{
+    text-align: justify;
+}
+.service button{
+    background-color: #FCD21C;
+    font-size: large;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
