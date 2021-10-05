@@ -1,0 +1,15 @@
+.about{
+    display: flex;
+    background-color: aqua;
+    margin-bottom: 30px;
+}
+.dedication{
+    display: flex;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+}
+.text{
+    font-size: 30px;
+    margin-bottom: 20px;
+}

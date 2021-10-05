@@ -1,4 +1,4 @@
-const services = [
+const Services = [
     {
         title: 'Lets with Javascript',
         img: 'https://www.rgbwebtech.com/services/images/uploads/nodejs-website-development-service-provider-company-in-india.jpg',
