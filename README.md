@@ -1,6 +1,6 @@
 # Getting Started with Developing Paathshala
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with (https://jolly-keller-365377.netlify.app/).
 
 ## Available service
 
