@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Form, Row } from 'react-bootstrap';
+import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 
 const ContactUs = () => {
     return (
@@ -8,7 +8,7 @@ const ContactUs = () => {
                 <h2>Want To Work With Us?</h2>
                 <hr />
             </div>
-            <div>
+            <Container className="w-50">
                 <Form>
                     <Row className="mb-3">
                         <Form.Group as={Col} controlId="formGridEmail">
@@ -53,14 +53,14 @@ const ContactUs = () => {
                     </Row>
 
                     <Form.Group className="mb-3" id="formGridCheckbox">
-                        <Form.Check type="checkbox" label="Check me out" />
+                        <Form.Check type="checkbox" label="You Are Agree ?" />
                     </Form.Group>
 
                     <Button variant="primary" type="submit">
                         Submit
                     </Button>
                 </Form>
-            </div>
+            </Container>
         </div>
     );
 };

@@ -1,19 +1,21 @@
+import Button from '@restart/ui/esm/Button';
 import React from 'react';
-import { useHistory } from 'react-router';
+import { Link } from 'react-router-dom';
 import './Service.css';
 const Service = (props) => {
-    const { title, discription, img, learnMore, price } = props.service;
-    console.log(learnMore)
-    const history = useHistory();
-    const handleClick = () => {
-        history.push(`${learnMore}`);
-    }
+    const { title, discription, img, id, price } = props.service;
+    const url = `/service/${id}`;
+    // console.log(id)
+    // const history = useHistory();
+    // const handleClick = () => {
+    //     history.push(`${id}`);
+    // }
     return (
         <div className="service">
             <img src={img} alt="" />
             <h2>{title}</h2>
             <p>{discription}</p>
-            <button onClick={handleClick}>Lets Go</button>
+            <Link to={url}><Button>More Details</Button> </Link>
             <h3>Price: ${price}</h3>
         </div>
     );
